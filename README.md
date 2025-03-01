@@ -4,7 +4,7 @@ A very very simple microkernel operating system written in rust
 ## How to build
 
 ### Dependency
-To build the system, you need to install them on your computer (and your self):
+To build the system, you need to install them on your computer:
 
 - x86_64 rust toolchain (nightly version, at least v1.80)
 - xorriso
