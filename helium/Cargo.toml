@@ -1,0 +1,13 @@
+[package]
+name = "helium"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+limine = "0.3.1"
+x86_64 = "0.15.2"
+bitmap = { version = "3.1.3", features = ["no_std"]}
+uart_16550 = "0.2.0"
+volatile = "0.6.1"
+lazy_static = {version = "1.5.0", features = ["spin_no_std"]}
+spin = "0.9.8"

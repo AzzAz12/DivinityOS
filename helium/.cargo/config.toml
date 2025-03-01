@@ -1,0 +1,10 @@
+[build]
+target = "./x86_64-limine.json"
+[target.x86_64-limine]
+rustflags = [
+    "-C", "link-arg=-T./x86_64-limine.ld",
+]
+
+[unstable]
+build-std-features = ["compiler-builtins-mem"]
+build-std = ["core", "compiler_builtins"]
