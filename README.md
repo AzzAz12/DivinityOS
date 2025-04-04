@@ -14,7 +14,7 @@ To build the system, you need to install them on your computer:
 - `cd` to the project directory and simply execute `./build-image.sh`, the `image.iso` will be generated on the project root
 
 ## How to run
-- `qemu-system-x86_64 /path/to/image.iso`
+- `qemu-system-x86_64 -serial stdio /path/to/image.iso`
 
 ## License
 MIT License
