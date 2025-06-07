@@ -23,6 +23,10 @@ static _END_MARKER: RequestsEndMarker = RequestsEndMarker::new();
 
 #[unsafe(no_mangle)]
 extern "C" fn _start() -> ! {
+    #[cfg(test)]
+    super::test_main();
+
+    #[cfg(not(test))]
     super::main();
     abort()
 }

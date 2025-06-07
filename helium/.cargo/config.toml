@@ -1,5 +1,7 @@
 [build]
 target = "./x86_64-limine.json"
+[target.'cfg(target_os = "none")']
+runner = "./runtest.sh"
 [target.x86_64-limine]
 rustflags = [
     "-C", "link-arg=-T./x86_64-limine.ld",
