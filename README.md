@@ -1,3 +1,5 @@
+## PROJECT IS IN EARLY STAGE
+
 ## Introduction
 A very very simple microkernel operating system written in rust
 
@@ -10,11 +12,12 @@ To build the system, you need to install them on your computer:
 - xorriso
 - limine
 - qemu-system-x86_64 to run the os image
-### Steps
-- `cd` to the project directory and simply execute `./build-image.sh`, the `image.iso` will be generated on the project root
 
 ## How to run
-- `qemu-system-x86_64 -serial stdio /path/to/image.iso`
+- `./run-image.sh`
+
+## Disclaimer
+- DO NOT USE THIS CODE IN YOUR PRODUCTION PROJECT 
 
 ## License
 MIT License

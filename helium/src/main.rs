@@ -7,12 +7,14 @@
 pub mod arch;
 pub mod bitmap;
 pub mod console;
+pub mod frame;
 pub mod heap;
-pub mod pmem;
+pub mod hhdm;
+pub mod page;
 
 pub fn main() {
     println!("Hello Kernel!");
-    pmem::hhdm_init();
+    hhdm::hhdm_init();
 }
 
 use core::panic::PanicInfo;

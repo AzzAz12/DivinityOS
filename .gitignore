@@ -3,3 +3,6 @@
 /image.iso
 /test_isodir
 /test_image.iso
+/prebuilt/limine-bios*
+/prebuilt/limine-uefi*
+/prebuilt/*.EFI
